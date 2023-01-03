@@ -10166,6 +10166,18 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
+section.publication-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+section.publication-section .publication-section-content {
+  width: 100%;
+}
 
 @media (min-width: 768px) {
   section.resume-section {
