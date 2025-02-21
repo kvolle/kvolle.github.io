@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+    <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport"/>
     <meta content="" name="description"/>
     <meta content="" name="author"/>
     <title>Kyle Volle</title>
-    <link href="static/images/favicon_robot.png" rel="icon" type="image/x-icon"/>
+    <link href="static/images/favicon_sailboat.png" rel="icon" type="image/x-icon"/>
     <!-- Font Awesome icons (free version)-->
     <script crossorigin="anonymous" src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
     <!-- Google fonts-->
@@ -15,6 +15,11 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css"/>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="static/css/styles.css" rel="stylesheet"/>
+
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">-->
+	<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">-->
+    <link rel="stylesheet" href="static/css/bulma-combined.min.css"/>
+
 </head>
 <body id="page-top">
 <!-- Navigation-->
@@ -30,9 +35,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item"><a style="text-decoration: none;" class="nav-link js-scroll-trigger" href="#about">About</a></li>
-            <li class="nav-item"><a style="text-decoration: none;" class="nav-link js-scroll-trigger" href="#currentposition">Current Position</a></li>
+            <!--<li class="nav-item"><a style="text-decoration: none;" class="nav-link js-scroll-trigger" href="#currentposition">Current Position</a></li>-->
             <li class="nav-item"><a style="text-decoration: none;" class="nav-link js-scroll-trigger" href="#education">Education</a></li>
             <li class="nav-item"><a style="text-decoration: none;" class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+            <li class="nav-item"><a style="text-decoration: none;" class="nav-link js-scroll-trigger" href="#projects">Select Projects</a></li>
             <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cv">Download CV</a></li> -->
             <!--<li class="nav-item"><a style="text-decoration: none;" class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>-->
         </ul>
@@ -48,29 +54,30 @@
                 <span class="text-primary">Volle</span>
             </h1>
             <div class="subheading mb-5">
-                1350 Poquito Rd N, Shalimar, FL 32579<br>
-                <a style="text-decoration: none;" href="mailto:kvolle@ufl.edu">kvolle@ufl.edu</a>
+                <!--136 Rickey Ave, Fort Walton Beach, FL 32547<br>-->
+                <a style="text-decoration: none;" href="mailto:kyle.volle@gmail.com">kyle.volle@gmail.com</a>
             </div>
             <p class="lead mb-3">
-                I am an assistant research scientist for the University of Florida at the UF REEF in Shalimar, FL. As part of 
-                the <a style="text-decoration:none;" href="https://avl.reef.ufl.edu/">Autonomous Vehicle Lab</a> (AVL), I work with researchers 
-                from various universities, as well as the Air Force Research Lab, applying machine learning techniques to topics related 
-                to cooperative autonomy, GPS-denied navigation, and controls.
+                I am a software engineer at Torch Technologies, where I work primarily on applying reinforcement learning to the task of conducting 
+                in-orbit inspection of low Earth orbit satellites. More generally, I assist with machine/reinforcement learning research projects 
+                relating to autonomy and/or controls.
             </p>
             <p class="lead mb-3">
-                This position has given me the opportunity to work on a diverse set of projects. One of the core activities of the AVL is to host 
-                several undergraduate and graduate student interns each summer. These internships give the students experience in depolying their 
-                research on hardware, to produce proof-of-concept demos of new ideas, and to establish collaborations with students at other universities. 
-                I've mentored several students over the years that have continued to collaborate with the AVL after they returned to their home labs. These 
-                collaborations have led to one published conference paper, one submitted journal article, and two papers in progress.
+                Previously, I held a series of research positions for the University of Florida at the UF REEF in Shalimar, FL with the specific 
+                role depending on funding sources. As part of the <a style="text-decoration:none;" href="https://avl.reef.ufl.edu/">Autonomous 
+                Vehicle Lab</a> (AVL), I worked with researchers from various universities, as well as the Air Force Research Lab, applying machine 
+                learning techniques to topics related to cooperative autonomy, GPS-denied navigation, and controls.
             </p>
             <p class="lead mb-3">
-                While my day-to-day activities vary with the availability of funding and seasonal mentoring duties, I also have opportunities to pursue my 
-                own research questions. My primary research interest is in how neural networks encode information and how that relates to 
-                out-of-domain detection and epistemic uncertainty. Looking at the distribution of the penultimate output layers ("features") 
-                after neural collapse occurs can provide information about whether or not a given sample is meaningfully consistent with the training data. This 
-                relates to adversarial robustness, uncertainty quantification, loss function shaping, and more. 
+                This position gave me the opportunity to work on a diverse set of projects. One of the core activities of the AVL is to host several 
+                undergraduate and graduate student interns each summer. These internships give the students experience in deploying their research on 
+                hardware, to produce proof-of-concept demos of new ideas, and to establish collaborations with students at other universities. I 
+                mentored several students over the years that have continued to collaborate with the AVL after they returned to their home labs. 
             </p>
+            <p class="lead mb-3">
+                When not at work, I'm either sailing on Choctawhatchee Bay or thinking about sailing on Choctawhatchee Bay.               
+            </p>
+
             <!--<p class="lead mb-3">
                 I am currently a PhD student in the
                 <a href="https://www.hebartlab.com" target="_blank">Vision and Computational Cognition lab</a>
@@ -90,10 +97,10 @@
                 Beyond all things neuroscience, I love computers, books, jazz guitar, and 
             </p>-->
             <div class="social-icons">
-                <a class="social-icon" href="mailto:kvolle@ufl.edu" target="_blank"><i
+                <a class="social-icon" href="mailto:kyle.volle@gmail.com" target="_blank"><i
                         class="fa fa-envelope"></i></a>
-                <a class="social-icon" href="https://twitter.com/kvolle" target="_blank"><i
-                        class="fab fa-twitter"></i></a>
+                <!--<a class="social-icon" href="https://twitter.com/kvolle" target="_blank"><i
+                        class="fab fa-twitter"></i></a>-->
                 <a class="social-icon" href="https://github.com/kvolle/" target="_blank"><i
                         class="fab fa-github"></i></a>
                 <a class="social-icon" href="https://www.linkedin.com/in/kyle-volle-561152146/" target="_blank"><i
@@ -154,7 +161,7 @@
 -->
     <hr class="m-0"/>
 
-    <!-- Current position-->
+    <!--
     <section class="resume-section" id="currentposition">
         <div class="resume-section-content">
             <h2 class="mb-5">Current position</h2>
@@ -162,7 +169,7 @@
             <div class="subheading mb-3">University of Florida REEF - Shalimar, FL</div>
             <div class="d-flex flex-column flex-md-row justify-content-between">
                 <div class="flex-grow-1">Assistant Research Scientist</div>
-                <div class="flex-shrink-0"><span class="text-primary">Feb 2021 - &nbsp;&nbsp;&nbsp;Present</span></div>
+                <div class="flex-shrink-0"><span class="text-primary">Feb 2021 - March 2023</span></div>
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-between">
                 <div class="flex-grow-1">National Academies of Science NRC Research Associate</div>
@@ -174,7 +181,7 @@
             </div>
         </div>
     </section>
-
+    -->
     <hr class="m-0"/>
 
     <!-- Education-->
@@ -295,6 +302,18 @@
             <div class="flex-grow-1">
                 <div class="subheading mb-3">Conference Papers</div>
                 <p class="mb-0-h">
+                    J Humberto Ramos, <b>Kyle Volle</b>, Adrienne Dorr, Prashant Ganesh, Kevin Brink. <b>Ownship Calibration for Indoor Magnetic Navigation</b>  In AIAA Scitech 2024 Forum
+                </p>
+                <p class="mb-0-h">
+                    Skylar E Stolte, <b>Kyle Volle</b>, Aprinda Indahlastari, Alejandro Albizu, Adam J Woods, Kevin Brink, Matthew Hale, 
+                    and Ruogu Fang. <b>DOMINO++: Domain-Aware Loss Regularization for Deep Learning Generalizability.</b> In International Conference 
+                    on Medical Image Computing and Computer-Assisted Intervention, pages 713-723. Springer, 2023.
+                </p>
+                <p class="mb-0-h">
+                    Adam Broshkevitch, Andrew Hancock, August Peters, Matthew Kim, Michael L Anderson, Hugh C Briggs, John Colombi, Matthew Hale, <b>Kyle Volle</b>, Prashant Ganesh, J Humberto Ramos.
+                    <b>An Autonomous System for the Rapid Airfield Damage Repair Mission</b> In AIAA Scitech 2023 Forum
+                </p>
+                <p class="mb-0-h">
                     J Humberto Ramos, Jaejeong Shin, <b>Kyle Volle</b>, Paul Buzaud, Kevin Brink, and Prashant Ganesh. <b>Information-aware 
                     guidance for magnetic anomaly based navigation.</b> In 2022 IEEE/RSJ International Conference on Intelligent Robots 
                     and Systems (IROS), pages 6347–6354. IEEE, 2022.
@@ -337,6 +356,80 @@
                 </p>
             </div>
           </br>
+    </section>
+    <section class="section" id="projects">
+        <div class="container">
+            <!-- Start Carousel -->
+            <div id="carousel-demo" class="carousel" infinite="true">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4x3    is-covered">
+                            <img src="static/images/Bathymetry.jpg"
+                            alt="">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="item__title">
+                            <b>Bathymetric Survey</b>
+                        </div>
+                        <div class="item__description">
+                            Conducting a bathymetric survey in Choctawhatchee Bay with graduate students of the APRILab at the University of Florida to test their USV.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4x3    is-covered">
+                            <img src="static/images/Shipwreck.png"
+                            alt="">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="item__title">
+                            <b>Shipwreck</b>
+                        </div>
+                        <div class="item__description">
+                            Analyzing the  side scan sonar data, I located an approximately 34 foot fishing boat that had sunk in the bay.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4x3    is-covered">
+                            <img src="static/images/path_planning.png"
+                            alt="">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="item__title">
+                            <b> Informative Path Planning for Magnetic Navigation</b>
+                        </div>
+                        <div class="item__description">
+                            Given a magnetic field strength map and a magnetometer, a robot needs to navigate to a desired goal. Approximate Dynamic Programming is used 
+                            to find a path that minimizes distance traveled while taking informative measurements to help with pose estimation via Extended Kalman Filter.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4x3    is-covered">
+                            <img src="static/images/panda.png"
+                            alt="">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="item__title">
+                            <b>Satellite Inspection Simulation</b>
+                        </div>
+                        <div class="item__description">
+                            As part of a program investigating autonomous inspection of a LEO satellite, I made a simulator to model natural illumination for inspectability.
+                            The day/night terminator is visible below the satellite.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Carousel -->
+        </div>
     </section>
 
 
@@ -456,15 +549,24 @@ time.<code class="code-func">wait</code>(<code class="code-val">60</code>*<code 
         </li>
     </ul>
     -->
-</div>
-</section>
-</div>
-<!-- Bootstrap core JS-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-<!-- Third party plugin JS-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>
-</body>
+            </div>
+            
+            <p style="text-align: center"><a href="https://www.flaticon.com/free-icons/sailboat" title="sailboat icons">Sailboat icons created by Creaticca Creative Agency - Flaticon</a></p>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll:1,
+			slidesToShow: 1
+		});
+		</script>
+    </body>
 </html>
